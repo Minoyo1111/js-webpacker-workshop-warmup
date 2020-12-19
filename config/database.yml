@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: webpacker_workshop_production
-  username: webpacker_workshop
+  username: minochen
   password: <%= ENV['WEBPACKER_WORKSHOP_DATABASE_PASSWORD'] %>
